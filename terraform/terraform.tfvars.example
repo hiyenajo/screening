@@ -1,0 +1,11 @@
+# 이 파일을 terraform.tfvars로 복사하고 값을 채워넣으세요
+# cp terraform.tfvars.example terraform.tfvars
+
+# SSH 공개키 (cat ~/.ssh/id_rsa.pub 결과 붙여넣기)
+public_key = "ssh-rsa AAAA... your-key-here"
+
+# 내 IP/32 형식 (curl ifconfig.me 로 확인)
+my_ip_cidr = "0.0.0.0/0"
+
+# Slack Webhook URL (선택사항 - 없으면 빈 문자열로 둠)
+slack_webhook_url = ""
